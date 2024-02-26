@@ -23,7 +23,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading><div class="text-3xl font-bold underline">Tooling</div></template>
 
     This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
