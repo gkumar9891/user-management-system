@@ -1,3 +1,13 @@
 <template>
-    <h1>This is sign up</h1>
+    <Form />
 </template>
+
+<script lang="ts">
+import Form from "../components/SignupForm.vue";
+
+export default {
+    components: {
+        Form
+    }
+}
+</script>
